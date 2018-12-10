@@ -7,3 +7,8 @@ node_js:
 branches:
   only:
   - master
+deploy:
+  provider: heroku
+  app: kolesnikovtemp
+  api_key:
+    secure: 4d9b6be1-2159-4e5a-927e-0151dc0a13e9

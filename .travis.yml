@@ -8,7 +8,8 @@ branches:
   only:
   - master
   deploy:
-    provider: heroku
-    app: kolesnikovtemp
+    provider: pages
+    app: temp
     api_key:
-      secure: 4d9b6be1-2159-4e5a-927e-0151dc0a13e9
+      secure: 2f51b640e327941820d71b1ac07264f9b663d6e8
+
